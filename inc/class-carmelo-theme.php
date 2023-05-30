@@ -34,10 +34,10 @@ class Carmelo_Theme{
     function render_block($block_content, $block, $instance){
 
 
-//        error_log ('metodo render_block, $block[\'blockName\']: '.var_export($block['blockName'],true));
+       error_log ('metodo render_block, $block[\'blockName\']: '.var_export($block['blockName'],true));
+       error_log ('metodo render_block, $block_content'.var_export($block_content,true));
 
 //        if ($block['blockName'] === 'core/post-title')
-//            error_log ('metodo render_block, $block_content'.var_export($block_content,true));
 
 //        if ($block['blockName'] === 'core/site-logo')
 //            error_log ('metodo render_block, $block_content'.var_export($block_content,true));
@@ -96,7 +96,7 @@ class Carmelo_Theme{
 
         wp_enqueue_style(
             'carmelo-theme',
-            get_theme_file_uri('style.css'),
+            get_theme_file_uri('assets/css/style.min.css'),
             [],
             _S_VERSION
         );

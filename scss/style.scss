@@ -1,0 +1,85 @@
+/*-------------------------------------
+	CONTENTS
+
+    - attachment-post-thumbnail
+    - wp-block-heading
+	- wp-block-navigation
+    - wp-block-post
+	- wp-block-post-title
+    - wp-block-query-title
+        - taxonomy-category
+
+-------------------------------------*/
+/*-------------------------------------
+	- attachment-post-thumbnail
+-------------------------------------*/
+.attachment-post-thumbnail{
+    border-radius: 5px;
+    margin: 2px 0;
+}
+
+/*-------------------------------------
+		- wp-block-heading
+-------------------------------------*/
+.wp-block-heading{
+	color :var(--wp--preset--color--primary)
+}
+
+/*-------------------------------------
+		- wp-block-navigation
+-------------------------------------*/
+
+.wp-block-navigation__responsive-container-close{
+	color :var(--wp--preset--color--primary);
+	margin: 10px 0;
+
+}
+.wp-block-navigation__responsive-container-open{
+	color :var(--wp--preset--color--primary);
+}
+
+.wp-block-navigation-item__label{
+	color :var(--wp--preset--color--primary);
+}
+
+
+.wp-block-navigation-link a:link, a:visited, a:active{
+	text-decoration: none;
+}
+
+/*-------------------------------------
+		- wp-block-post
+-------------------------------------*/
+
+.wp-block-post{
+    padding: 0 5px;
+}
+
+/*-------------------------------------
+		- wp-block-post-title
+-------------------------------------*/
+
+.wp-block-post-title{
+	color :var(--wp--preset--color--primary)
+}
+
+/*-------------------------------------
+		- wp-block-query-title
+-------------------------------------*/
+
+.wp-block-query-title{
+    padding: 0 5px;
+	color :var(--wp--preset--color--primary)
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------
+		- taxonomy-category 
+        Clase utilizada en el bloque wp-block-post-terms para especificar el tipo de termino que se muestra, en este caso la categoría
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.taxonomy-category{
+    border-radius: 5px;
+    margin: 2px 0;
+    padding: 1px 5px;
+	text-align: center;
+}
